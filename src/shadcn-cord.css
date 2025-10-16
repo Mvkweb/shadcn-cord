@@ -29,33 +29,33 @@
 
 /* Applying the variables to Discord's UI */
 /* This will be expanded significantly in the next steps */
-.theme-dark, .theme-light {
-  --background-primary: var(--shadcn-background);
-  --background-secondary: var(--shadcn-background);
-  --background-secondary-alt: var(--shadcn-background);
-  --background-tertiary: var(--shadcn-card);
-  --background-floating: var(--shadcn-popover);
-  --channeltextarea-background: var(--shadcn-input);
-  --modal-background: var(--shadcn-popover);
-  --modal-footer-background: var(--shadcn-card);
-  --card-primary-bg: var(--shadcn-card);
-  --card-secondary-bg: var(--shadcn-card);
-  --card-secondary-fg: var(--shadcn-card-foreground);
-  --interactive-normal: var(--shadcn-muted-foreground);
-  --interactive-hover: var(--shadcn-foreground);
-  --interactive-active: var(--shadcn-primary);
-  --interactive-muted: var(--shadcn-muted);
-  --text-normal: var(--shadcn-foreground);
-  --text-link: var(--shadcn-button-primary-bg);
-  --text-muted: var(--shadcn-muted-foreground);
-  --header-primary: var(--shadcn-foreground);
-  --header-secondary: var(--shadcn-muted-foreground);
-  --button-secondary-background: var(--shadcn-input);
-  --button-secondary-background-hover: var(--shadcn-border);
-  --button-secondary-background-active: var(--shadcn-border);
-  --brand-experiment: var(--shadcn-button-primary-bg);
-  --brand-experiment-hover: hsl(221, 83%, 60%);
-  --info-positive-foreground: var(--shadcn-button-primary-bg);
+html.theme-dark {
+  --background-primary: var(--shadcn-background) !important;
+  --background-secondary: var(--shadcn-background) !important;
+  --background-secondary-alt: var(--shadcn-background) !important;
+  --background-tertiary: var(--shadcn-card) !important;
+  --background-floating: var(--shadcn-popover) !important;
+  --channeltextarea-background: var(--shadcn-input) !important;
+  --modal-background: var(--shadcn-popover) !important;
+  --modal-footer-background: var(--shadcn-card) !important;
+  --card-primary-bg: var(--shadcn-card) !important;
+  --card-secondary-bg: var(--shadcn-card) !important;
+  --card-secondary-fg: var(--shadcn-card-foreground) !important;
+  --interactive-normal: var(--shadcn-muted-foreground) !important;
+  --interactive-hover: var(--shadcn-foreground) !important;
+  --interactive-active: var(--shadcn-primary) !important;
+  --interactive-muted: var(--shadcn-muted) !important;
+  --text-normal: var(--shadcn-foreground) !important;
+  --text-link: var(--shadcn-button-primary-bg) !important;
+  --text-muted: var(--shadcn-muted-foreground) !important;
+  --header-primary: var(--shadcn-foreground) !important;
+  --header-secondary: var(--shadcn-muted-foreground) !important;
+  --button-secondary-background: var(--shadcn-input) !important;
+  --button-secondary-background-hover: var(--shadcn-border) !important;
+  --button-secondary-background-active: var(--shadcn-border) !important;
+  --brand-experiment: var(--shadcn-button-primary-bg) !important;
+  --brand-experiment-hover: hsl(221, 83%, 60%) !important;
+  --info-positive-foreground: var(--shadcn-button-primary-bg) !important;
 }
 
 * {
