@@ -1,0 +1,13 @@
+{
+  "name": "shadcn-cord",
+  "version": "1.0.0",
+  "description": "A Discord theme inspired by the shadcn UI aesthetic.",
+  "author": "Mvk",
+  "scripts": {
+    "dev": "theme-scss dev",
+    "build": "theme-scss build"
+  },
+  "dependencies": {
+    "theme-scss": "^1.1.2"
+  }
+}

@@ -1,0 +1,24 @@
+// Button Styles
+// Targeting Discord's main button classes
+
+// Primary blue button
+.button-f2h6uQ.button-f8-e7D.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIx1.grow-2sR_-F {
+    background-color: var(--shadcn-button-primary-bg);
+    color: var(--shadcn-button-primary-text);
+    transition: background-color 0.17s ease;
+
+    &:hover {
+        background-color: hsl(221, 83%, 60%);
+    }
+}
+
+// Secondary/subtle buttons
+.button-f2h6uQ.button-f8-e7D.lookFilled-yCfaCM.colorPrimary-2-iN1N.sizeMedium-2bFIx1.grow-2sR_-F {
+    background-color: var(--shadcn-input);
+    color: var(--shadcn-foreground);
+    transition: background-color 0.17s ease;
+
+    &:hover {
+        background-color: var(--shadcn-border);
+    }
+}

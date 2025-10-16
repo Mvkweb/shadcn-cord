@@ -1,0 +1,9 @@
+// Advanced Effects: Acrylic Blur
+
+// Applying a blur effect to modals and other floating elements
+.modal-yWgWj-, .root-1gCeng, .menu-1_y0A2 {
+    background-color: rgba(30, 30, 30, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--shadcn-border);
+}

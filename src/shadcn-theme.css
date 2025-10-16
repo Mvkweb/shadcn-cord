@@ -1,0 +1,105 @@
+/* Shadcn-inspired Theme Variables */
+:root {
+  /* Core Colors */
+  --shadcn-background: hsl(240 10% 3.9%); /* Almost black background */
+  --shadcn-foreground: hsl(210 40% 98%); /* Light text color */
+  --shadcn-card: hsl(240 10% 3.9%);
+  --shadcn-card-foreground: hsl(210 40% 98%);
+  --shadcn-popover: hsl(240 10% 3.9%);
+  --shadcn-popover-foreground: hsl(210 40% 98%);
+  --shadcn-primary: hsl(210 40% 98%);
+  --shadcn-primary-foreground: hsl(222.2 47.4% 11.2%);
+  --shadcn-secondary: hsl(240 4.8% 95.9%);
+  --shadcn-secondary-foreground: hsl(222.2 47.4% 11.2%);
+  --shadcn-muted: hsl(240 3.8% 46.1%);
+  --shadcn-muted-foreground: hsl(240 5% 64.9%);
+  --shadcn-accent: hsl(240 5.9% 90%);
+  --shadcn-accent-foreground: hsl(222.2 47.4% 11.2%);
+  --shadcn-destructive: hsl(0 84.2% 60.2%);
+  --shadcn-destructive-foreground: hsl(210 40% 98%);
+  --shadcn-border: hsl(240 3.7% 15.9%);
+  --shadcn-input: hsl(240 3.7% 15.9%);
+  --shadcn-ring: hsl(215 20.2% 65.1%);
+  /* Component Specific */
+  --shadcn-button-primary-bg: hsl(221, 83%, 53%);
+  --shadcn-button-primary-text: #fff;
+  /* Font & Border Radius */
+  --shadcn-border-radius: 0.5rem;
+}
+
+/* Applying the variables to Discord's UI */
+/* This will be expanded significantly in the next steps */
+.theme-dark, .theme-light {
+  --background-primary: var(--shadcn-background);
+  --background-secondary: var(--shadcn-background);
+  --background-secondary-alt: var(--shadcn-background);
+  --background-tertiary: var(--shadcn-card);
+  --background-floating: var(--shadcn-popover);
+  --channeltextarea-background: var(--shadcn-input);
+  --modal-background: var(--shadcn-popover);
+  --modal-footer-background: var(--shadcn-card);
+  --card-primary-bg: var(--shadcn-card);
+  --card-secondary-bg: var(--shadcn-card);
+  --card-secondary-fg: var(--shadcn-card-foreground);
+  --interactive-normal: var(--shadcn-muted-foreground);
+  --interactive-hover: var(--shadcn-foreground);
+  --interactive-active: var(--shadcn-primary);
+  --interactive-muted: var(--shadcn-muted);
+  --text-normal: var(--shadcn-foreground);
+  --text-link: var(--shadcn-button-primary-bg);
+  --text-muted: var(--shadcn-muted-foreground);
+  --header-primary: var(--shadcn-foreground);
+  --header-secondary: var(--shadcn-muted-foreground);
+  --button-secondary-background: var(--shadcn-input);
+  --button-secondary-background-hover: var(--shadcn-border);
+  --button-secondary-background-active: var(--shadcn-border);
+  --brand-experiment: var(--shadcn-button-primary-bg);
+  --brand-experiment-hover: hsl(221, 83%, 60%);
+  --info-positive-foreground: var(--shadcn-button-primary-bg);
+}
+
+* {
+  border-radius: var(--shadcn-border-radius);
+}
+
+.button-f2h6uQ.button-f8-e7D.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIx1.grow-2sR_-F {
+  background-color: var(--shadcn-button-primary-bg);
+  color: var(--shadcn-button-primary-text);
+  transition: background-color 0.17s ease;
+}
+.button-f2h6uQ.button-f8-e7D.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIx1.grow-2sR_-F:hover {
+  background-color: hsl(221, 83%, 60%);
+}
+
+.button-f2h6uQ.button-f8-e7D.lookFilled-yCfaCM.colorPrimary-2-iN1N.sizeMedium-2bFIx1.grow-2sR_-F {
+  background-color: var(--shadcn-input);
+  color: var(--shadcn-foreground);
+  transition: background-color 0.17s ease;
+}
+.button-f2h6uQ.button-f8-e7D.lookFilled-yCfaCM.colorPrimary-2-iN1N.sizeMedium-2bFIx1.grow-2sR_-F:hover {
+  background-color: var(--shadcn-border);
+}
+
+.chat-3_3c1b, .content-1jQy2l {
+  background-color: var(--shadcn-card);
+}
+
+.form-2fGMdU {
+  border-top: 1px solid var(--shadcn-border);
+  background-color: transparent;
+}
+
+.guilds-2JjMmN {
+  background-color: var(--shadcn-background);
+}
+
+.sidebar-1tnWFu {
+  background-color: var(--shadcn-card);
+}
+
+.modal-yWgWj-, .root-1gCeng, .menu-1_y0A2 {
+  background-color: rgba(30, 30, 30, 0.5);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--shadcn-border);
+}
