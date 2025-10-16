@@ -104,18 +104,41 @@ html.theme-dark {
   background-color: var(--shadcn-border);
 }
 
-.root-g14_1e {
+[class*=modal-] {
   background-color: var(--shadcn-card);
   border-radius: var(--shadcn-border-radius);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ {
-  background-color: var(--shadcn-button-primary-bg);
-  color: var(--shadcn-button-primary-text);
+[class*=header-] {
+  background-color: transparent;
+  border-bottom: 1px solid var(--shadcn-border);
 }
-.button-f2h6uQ.lookFilled-yCfaCM.colorRed-r-QzK_ {
+
+[class*=footer-] {
+  background-color: var(--shadcn-background);
+  box-shadow: none;
+  border-top: 1px solid var(--shadcn-border);
+}
+
+[class*=content-] {
+  background-color: transparent;
+}
+
+.root-g14_1e .button-f2h6uQ[class*=colorGreen-] {
+  background-color: hsl(142, 71%, 45%);
+  color: var(--shadcn-primary-foreground);
+}
+.root-g14_1e .button-f2h6uQ[class*=colorRed-] {
   background-color: var(--shadcn-destructive);
   color: var(--shadcn-destructive-foreground);
+}
+.root-g14_1e .button-f2h6uQ[class*=colorPrimary-] {
+  background-color: var(--shadcn-input);
+  color: var(--shadcn-foreground);
+}
+.root-g14_1e .button-f2h6uQ[class*=colorPrimary-]:hover {
+  background-color: var(--shadcn-border);
 }
 
 .userPopout-2j1gM4 {

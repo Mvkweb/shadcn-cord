@@ -1,2 +1,50 @@
-// This file will import all modal-specific styles
-@use 'channel-settings';
+// Comprehensive Modal Styles
+
+// Modal Container
+[class*="modal-"] {
+    background-color: var(--shadcn-card);
+    border-radius: var(--shadcn-border-radius);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+// Modal Header & Footer
+[class*="header-"] {
+    background-color: transparent;
+    border-bottom: 1px solid var(--shadcn-border);
+}
+
+[class*="footer-"] {
+    background-color: var(--shadcn-background);
+    box-shadow: none;
+    border-top: 1px solid var(--shadcn-border);
+}
+
+// Modal Content
+[class*="content-"] {
+    background-color: transparent;
+}
+
+// --- Modal-Specific Button Overrides ---
+// This ensures buttons inside modals are styled correctly.
+.root-g14_1e {
+    // Green / Add Button
+    .button-f2h6uQ[class*="colorGreen-"] {
+        background-color: hsl(142, 71%, 45%); // A standard green
+        color: var(--shadcn-primary-foreground);
+    }
+    
+    // Red / Remove Button
+    .button-f2h6uQ[class*="colorRed-"] {
+        background-color: var(--shadcn-destructive);
+        color: var(--shadcn-destructive-foreground);
+    }
+
+    // Grey / Edit Button
+    .button-f2h6uQ[class*="colorPrimary-"] {
+        background-color: var(--shadcn-input);
+        color: var(--shadcn-foreground);
+        &:hover {
+            background-color: var(--shadcn-border);
+        }
+    }
+}
