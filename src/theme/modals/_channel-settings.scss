@@ -1,0 +1,18 @@
+// Channel Settings Modal
+
+.root-g14_1e {
+    background-color: var(--shadcn-card);
+    border-radius: var(--shadcn-border-radius);
+}
+
+// Override button styles within this specific modal
+.button-f2h6uQ {
+    &.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+        background-color: var(--shadcn-button-primary-bg);
+        color: var(--shadcn-button-primary-text);
+    }
+    &.lookFilled-yCfaCM.colorRed-r-QzK_ {
+        background-color: var(--shadcn-destructive);
+        color: var(--shadcn-destructive-foreground);
+    }
+}
