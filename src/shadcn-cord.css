@@ -117,3 +117,8 @@ html.theme-dark {
   background-color: var(--shadcn-destructive);
   color: var(--shadcn-destructive-foreground);
 }
+
+.userPopout-2j1gM4 {
+  background-color: var(--shadcn-card);
+  border-radius: var(--shadcn-border-radius);
+}
